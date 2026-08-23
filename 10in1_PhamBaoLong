@@ -1,6 +1,6 @@
 #!name = All In One Pro Max Ultimate
 #!desc = YouTube + Locket + SoundCloud + Spotify + Nhiều App khác
-#!author = Gấu Lỏz CUTO_Tổng hợp các URL trên mạng
+#!author = PhamBaoLong_Tổng hợp các URL trên mạng
 #Shadowrocket Unlock nhiều app vip
 
 [Rule]
@@ -62,8 +62,8 @@ Camscanner = type=http-response,pattern=https:\/\/(api|api-cs.*)\.intsig\.net\/p
 BeautyPlus = type=http-response,pattern=https:\/\/(api\.mr\.pixocial\.com\/v1\/manual_unlock|newbeee-api\.beautyplus\.com\/api\/v1\/asset\/balance),requires-body=true,max-size=-1,timeout=60,script-path=https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/BeautyPlus.js
 
 #Locket
-revenuecat = type=http-response,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$),requires-body=true,max-size=-1,timeout=60,script-path=https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/Locket_DuyVinh09.js
-deleteHeader = type=http-request,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers),script-path=https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/deleteHeader.js,timeout=60
+revenuecat = type=http-response,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$),requires-body=true,max-size=-1,timeout=60,script-path=https://raw.githubusercontent.com/phambaolongdev/shadow-configs/refs/heads/main/js/Locket_PhamBaoLong.js
+deleteHeader = type=http-request,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers),script-path=https://raw.githubusercontent.com/phambaolongdev/shadow-configs/refs/heads/main/js/deleteHeader.js,timeout=60
 
 [Map Local]
 ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad data-type=text data="" status-code=200
