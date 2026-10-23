@@ -55,7 +55,7 @@ if (ua.includes("Locket")) {
                 {
                     title: "Nếu có thể hãy giới thiệu bạn bè ủng hộ mình nha ✨",
                     body: "Sự tin tưởng của bạn là cả niềm vui đối với mình 💛",
-                    imageURL: "https://i.ibb.co/KxC1R99b/thankyou.png"
+                    imageURL: "https://ibb.co/KQTDzfJ"
                 
                 }
             ],
