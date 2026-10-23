@@ -1,7 +1,7 @@
 // ============================================================
 // Locket Remote Config Rewrite
 // Dùng cho: Loon / Quantumult X / Surge / Shadowrocket
-// cre phambaolong
+// cre dinhduyvinh09
 // ============================================================
 
 var ua = $request.headers["User-Agent"] || $request.headers["user-agent"] || "";
@@ -61,7 +61,7 @@ if (ua.includes("Locket")) {
             ],
             primary_button_title: "done",
             campaign: "locket_gold_welcome_v3",
-            start_at: "2009-06-09T00:00:00",
+            start_at: "2020-01-01T00:00:00",
             end_at: "2099-12-31T23:59:59",
             use_local_time_zone: true
         }),
@@ -96,7 +96,7 @@ if (ua.includes("Locket")) {
     // ============================================================
     // 3. CAMERA, VIDEO, FILTERS & UPLOAD QUALITY
     // ============================================================
-    var MY_VIDEO_DURATION = 60.0;
+    var MY_VIDEO_DURATION = 45.0;
     
     var cameraConfig = {
         gold_max_duration: MY_VIDEO_DURATION,
@@ -305,8 +305,8 @@ if (ua.includes("Locket")) {
             url: "https://i.ibb.co/274WyrYX/Khung-Locket-Gold-pbl.png",
             use_local_time_zone: true,
             placement: "below",
-            start_at: "2009-06-09T00:00:00",
-            end_at: "2999-12-31T23:59:59"
+            start_at: "2020-01-01T00:00:00",
+            end_at: "2099-12-31T23:59:59"
         }),
         live_activity_onboarding: "true",
         live_activity_onboarding_variant: "friending",
@@ -612,7 +612,7 @@ if (ua.includes("Locket")) {
                 ]
             },
             {
-                section: "Caption PBL🎨",
+                section: "Locket Gold by PBL🎨",
                 items: [
                     {
                         overlay_id: "caption:pbl",
@@ -620,72 +620,8 @@ if (ua.includes("Locket")) {
                         caption: {
                             background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"] },
                             max_lines: 1,
-                            text: "Phạm Bảo Long",
+                            text: "phambaolong",
                             text_color: "#183153",
-                            type: "static_content"
-                        }
-                    },
-                  {
-                        overlay_id: "caption:phambaolong",
-                        source: "remote",
-                        caption: {
-                            background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"] },
-                            max_lines: 1,
-                            text: "💻 Locket Gold by PBL",
-                            text_color: "#183153",
-                            type: "static_content"
-                        }
-                    },
-                  {
-                        overlay_id: "caption:snake_vibes",
-                        source: "remote",
-                        caption: {
-                            background: {
-                                colors: ["#2E7D32", "#66BB6A"]
-                            },
-                            icon: {
-                                data: "🐍",
-                                type: "emoji"
-                            },
-                            max_lines: 1,
-                            text: "Snake Vibes",
-                            localized_text: {
-                                en: "Snake Vibes",
-                                vn: "Chất rắn"
-                            },
-                            text_color: "#FFFFFFE6",
-                            type: "static_content"
-                        }
-                    },
-                  {
-                        overlay_id: "caption:du_an_ma",
-                        source: "remote",
-                        caption: {
-                            background: {
-                                colors: ["#263238", "#455A64"]
-                            },
-                            icon: {
-                                data: "👻",
-                                type: "emoji"
-                            },
-                            max_lines: 1,
-                            text: "dự án ma",
-                            text_color: "#FFFFFFE6",
-                            type: "static_content"
-                        }
-                    }
-                ]
-            },
-          {
-                    {
-                        overlay_id: "caption:goldne",
-                        source: "remote",
-                        caption: {
-                            background: { colors: ["#5EFFF5", "#FCFF57"] },
-                            icon: { data: "🪩", type: "emoji" },
-                            max_lines: 1,
-                            text: "Tận hưởng Locket Gold nhé",
-                            text_color: "#000000E6",
                             type: "static_content"
                         }
                     },
