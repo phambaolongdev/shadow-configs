@@ -55,7 +55,7 @@ if (ua.includes("Locket")) {
                 {
                     title: "Nếu có thể hãy giới thiệu bạn bè ủng hộ mình nha ✨",
                     body: "Sự tin tưởng của bạn là cả niềm vui đối với mình 💛",
-                    imageURL: "https://i.ibb.co/Vhfxpzs/IMG-4415.png"
+                    imageURL: "https://phambaolongdev.github.io/assets/img/thankyou.png"
                 
                 }
             ],
@@ -302,7 +302,7 @@ if (ua.includes("Locket")) {
         widget_sync_token_reload_mode: "clearTokenNever",
         widget_frame_event: JSON.stringify({
             uid: "midautumn_2026",
-            url: "https://phambaolongdev.github.io/assets/img/thankyou.png",
+            url: "https://i.ibb.co/6JRQprXZ/Khung-Locket-Gold-pbl.png",
             use_local_time_zone: true,
             placement: "below",
             start_at: "2020-01-01T00:00:00",
