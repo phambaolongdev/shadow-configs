@@ -96,7 +96,7 @@ if (ua.includes("Locket")) {
     // ============================================================
     // 3. CAMERA, VIDEO, FILTERS & UPLOAD QUALITY
     // ============================================================
-    var MY_VIDEO_DURATION = 45.0;
+    var MY_VIDEO_DURATION = 60.0;
     
     var cameraConfig = {
         gold_max_duration: MY_VIDEO_DURATION,
@@ -126,9 +126,9 @@ if (ua.includes("Locket")) {
         trimMaxDuration: MY_VIDEO_DURATION,
         camera_roll_max_duration: MY_VIDEO_DURATION,
         camera_roll_video_max_duration: MY_VIDEO_DURATION,
-        max_file_size: 104857600,       // Cho phép file tối đa 100MB từ thư viện
-        max_upload_bytes: 104857600,   // Nới lỏng giới hạn dung lượng tải lên
-        max_size_bytes: 104857600,
+        max_file_size: 1048576000,       // Cho phép file tối đa 100MB từ thư viện
+        max_upload_bytes: 1048576000,   // Nới lỏng giới hạn dung lượng tải lên
+        max_size_bytes: 1048576000,
         quality_mbps: 0.9,
         qualityMbps: 0.9,
         flash_button: true
@@ -182,8 +182,8 @@ if (ua.includes("Locket")) {
         trim_max_duration: durationStr,
         gold_max_duration: durationStr,
         goldMaxDuration: durationStr,
-        max_file_size: "104857600",
-        max_upload_bytes: "104857600",
+        max_file_size: "1048576000",
+        max_upload_bytes: "1048576000",
         video_quality_mbps: "0.9",
         video_sound_enabled: "true",
         microphone_enabled: "true",
@@ -192,9 +192,9 @@ if (ua.includes("Locket")) {
         zoom_enabled: "true",
         upload_main: "false",
         upload_main_image_quality: "0.9",
-        upload_main_image_size: "1440",
+        upload_main_image_size: "14400",
         upload_thumbnail_image_quality: "0.9",
-        upload_thumbnail_image_size: "1020"
+        upload_thumbnail_image_size: "10200"
     });
 
     // ============================================================
@@ -302,7 +302,7 @@ if (ua.includes("Locket")) {
         widget_sync_token_reload_mode: "clearTokenNever",
         widget_frame_event: JSON.stringify({
             uid: "midautumn_2026",
-            url: "https://i.ibb.co/6JRQprXZ/Khung-Locket-Gold-pbl.png",
+            url: "https://phambaolongdev.github.io/assets/img/thankyou.png",
             use_local_time_zone: true,
             placement: "below",
             start_at: "2020-01-01T00:00:00",
